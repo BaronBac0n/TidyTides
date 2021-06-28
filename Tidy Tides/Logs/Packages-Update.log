@@ -45,7 +45,11 @@ The following packages were added:
   com.unity.timeline@1.4.6
   com.unity.ugui@1.0.0
 
+<<<<<<< Updated upstream
 === Mon Jun 28 09:25:22 2021
+=======
+=== Mon Jun 28 09:18:07 2021
+>>>>>>> Stashed changes
 
 Packages were changed.
 Update Mode: updateDependencies
