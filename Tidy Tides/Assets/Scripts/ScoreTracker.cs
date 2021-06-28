@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class ScoreTracker : MonoBehaviour
 {
     public int score = 0;
-    private TextMeshProUGUI scoreText;
+    private Text scoreText;
     #region Singleton
     public static ScoreTracker instance;
 
@@ -24,7 +24,7 @@ public class ScoreTracker : MonoBehaviour
 
     private void Start()
     {
-        scoreText = GetComponent<TextMeshProUGUI>();
+        scoreText = GetComponent<Text>();
     }
 
     private void Update()
