@@ -17,6 +17,9 @@ public class InventoryManager : MonoBehaviour
     public Image tickImage;
     public Image crossImage;
 
+    public GameObject inventoryParent;
+    public GameObject playetInv;
+
     #region Singleton
     public static InventoryManager instance;
 
@@ -41,7 +44,19 @@ public class InventoryManager : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            AddNewItem(itemToAdd);
+            //AddNewItem(itemToAdd);
+        }
+
+        if (Input.GetKeyDown(KeyCode.Tab))
+        {
+            if (inventoryParent.active == false)
+            {
+                inventoryParent.SetActive(true);
+            }
+            else
+            {
+                inventoryParent.SetActive(false);
+            }
         }
     }
 
@@ -50,7 +65,7 @@ public class InventoryManager : MonoBehaviour
         if (CheckForEmptySlot() >= 0)
         {
             print("Slot " + CheckForEmptySlot() + " is the first empty slot");
-            GameObject clone = Instantiate(itemToAdd, this.transform);
+            GameObject clone = Instantiate(itemToAdd, playetInv.transform);
             slots[CheckForEmptySlot()].contents = clone;
         }
         else
