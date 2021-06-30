@@ -28,7 +28,7 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
 
     private void Awake()
     {
-        canvas = FindObjectOfType<Canvas>();
+        canvas = GameObject.FindGameObjectWithTag("Canvas").GetComponent<Canvas>();
         icon = GetComponent<Image>();
 
         canvasGroup = GetComponent<CanvasGroup>();

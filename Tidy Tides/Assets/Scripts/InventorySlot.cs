@@ -18,11 +18,7 @@ public class InventorySlot : MonoBehaviour, IDropHandler
     {
         if (contents != null)
         {
-            if (InventoryManager.instance.dragging == contents)
-            {
-                contents = null;
-            }
-
+            
             contents.transform.position = transform.position;
 
             string contentsType = contents.GetComponent<Item>().type.ToString();
@@ -41,6 +37,11 @@ public class InventorySlot : MonoBehaviour, IDropHandler
                     print("Wrong bin! That was supposed to go in the " + contentsType + " bin!");                    
                 }
                 Destroy(contents);
+                contents = null;
+            }
+
+            if (InventoryManager.instance.dragging == contents)
+            {
                 contents = null;
             }
         }
