@@ -15,11 +15,11 @@ D:/Projects/TidyTides/Tidy Tides
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62382
+64914
 Successfully changed project path to: D:/Projects/TidyTides/Tidy Tides
 D:/Projects/TidyTides/Tidy Tides
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 21.57 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 21.54 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.9f1 (108be757e447)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/Resources/UnitySubsystems
@@ -35,131 +35,159 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56612
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56728
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002083 seconds.
+Registered in 0.002046 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 22.85 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 23.54 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.098 seconds
+- Completed reload, in  1.189 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000452 seconds.
+Registered in 0.000502 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000016E70E5FEC0 doesn't match image D:\Projects\TidyTides\Tidy Tides\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-00000160EDC5AB80 doesn't match image D:\Projects\TidyTides\Tidy Tides\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016E75FD0E30 doesn't match image D:\Projects\TidyTides\Tidy Tides\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-00000160EDB2FE40 doesn't match image D:\Projects\TidyTides\Tidy Tides\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016E710A10E0 doesn't match image D:\Projects\TidyTides\Tidy Tides\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-00000160F3940020 doesn't match image D:\Projects\TidyTides\Tidy Tides\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016E710A10E0 doesn't match image D:\Projects\TidyTides\Tidy Tides\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-00000160EDAE4980 doesn't match image D:\Projects\TidyTides\Tidy Tides\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016E7563B020 doesn't match image D:\Projects\TidyTides\Tidy Tides\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-00000160F2463C20 doesn't match image D:\Projects\TidyTides\Tidy Tides\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.806 seconds
+- Completed reload, in  0.858 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1122 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 57.4 MB.
-System memory in use after: 57.4 MB.
+Unloading 1125 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.7 MB.
+System memory in use after: 57.7 MB.
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1565.
-Total: 1.458000 ms (FindLiveObjects: 0.105700 ms CreateObjectMapping: 0.027600 ms MarkObjects: 1.254500 ms  DeleteObjects: 0.069500 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Scenes/Hayden J.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Hayden J.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff30c912b502952359e906032cef8489') in 0.014760 seconds
-  Import took 0.016329 seconds .
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1568.
+Total: 1.396900 ms (FindLiveObjects: 0.098200 ms CreateObjectMapping: 0.027000 ms MarkObjects: 1.202800 ms  DeleteObjects: 0.068200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.472303 seconds.
-  path: Assets/Scenes/Hayden J.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Hayden J.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff30c912b502952359e906032cef8489') in 0.001782 seconds
-  Import took 0.003629 seconds .
+  path: Assets/FirstPersion AIO Pack/FirstPersonAIO/FirstPerson-AIO.prefab
+  artifactKey: Guid(2e62f5703e5f8d2488a5e1bc8433be41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FirstPersion AIO Pack/FirstPersonAIO/FirstPerson-AIO.prefab using Guid(2e62f5703e5f8d2488a5e1bc8433be41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4bca4a0833613e03ef07c788d38ef4b') in 0.049425 seconds
+  Import took 0.051650 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
 Registered in 0.000492 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000016E71422010 doesn't match image D:\Projects\TidyTides\Tidy Tides\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-00000160ED9C2F00 doesn't match image D:\Projects\TidyTides\Tidy Tides\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016E70B40410 doesn't match image D:\Projects\TidyTides\Tidy Tides\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-00000160EE10E020 doesn't match image D:\Projects\TidyTides\Tidy Tides\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016E77FDE020 doesn't match image D:\Projects\TidyTides\Tidy Tides\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-00000160EE10E020 doesn't match image D:\Projects\TidyTides\Tidy Tides\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016E70FD6BC0 doesn't match image D:\Projects\TidyTides\Tidy Tides\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-00000160EE10E020 doesn't match image D:\Projects\TidyTides\Tidy Tides\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016E76AA8010 doesn't match image D:\Projects\TidyTides\Tidy Tides\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-00000160F474B020 doesn't match image D:\Projects\TidyTides\Tidy Tides\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  0.750 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1119 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.5 MB.
+System memory in use after: 57.6 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1571.
+Total: 1.471800 ms (FindLiveObjects: 0.097500 ms CreateObjectMapping: 0.027100 ms MarkObjects: 1.305900 ms  DeleteObjects: 0.040500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000521 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000160C474C440 doesn't match image D:\Projects\TidyTides\Tidy Tides\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000160F4C91290 doesn't match image D:\Projects\TidyTides\Tidy Tides\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000160ED945C20 doesn't match image D:\Projects\TidyTides\Tidy Tides\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000160F40D7040 doesn't match image D:\Projects\TidyTides\Tidy Tides\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000160F474B020 doesn't match image D:\Projects\TidyTides\Tidy Tides\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.742 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1119 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.5 MB.
+System memory in use after: 57.6 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1574.
+Total: 1.529700 ms (FindLiveObjects: 0.104400 ms CreateObjectMapping: 0.028200 ms MarkObjects: 1.354400 ms  DeleteObjects: 0.041900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 346.957759 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(9663c4b7704092c4ca0917348415f510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(9663c4b7704092c4ca0917348415f510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4c018636ea71b2e38110f57eac49cd4') in 0.007739 seconds
+  Import took 0.009449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.595949 seconds.
+  path: Assets/Scripts/PlayerRaycast.cs
+  artifactKey: Guid(438938e3426f15049b1905f53ac4222e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerRaycast.cs using Guid(438938e3426f15049b1905f53ac4222e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c08091bd7529420d34f5a5a034c571d5') in 0.593078 seconds
+  Import took 0.594788 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000550 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000160EDFB8180 doesn't match image D:\Projects\TidyTides\Tidy Tides\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000160EDA79820 doesn't match image D:\Projects\TidyTides\Tidy Tides\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000160F4D4FD50 doesn't match image D:\Projects\TidyTides\Tidy Tides\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000160F4D4FD50 doesn't match image D:\Projects\TidyTides\Tidy Tides\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000160F474B020 doesn't match image D:\Projects\TidyTides\Tidy Tides\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.789 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1120 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 57.6 MB.
-System memory in use after: 57.6 MB.
+System memory in use after: 57.7 MB.
 
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1570.
-Total: 1.679100 ms (FindLiveObjects: 0.098200 ms CreateObjectMapping: 0.131300 ms MarkObjects: 1.384800 ms  DeleteObjects: 0.064100 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 558.575495 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(39446802b667c56468f4ac4ade2d7665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(39446802b667c56468f4ac4ade2d7665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f5361437d858c62f1e5811081fbe8cd') in 0.012875 seconds
-  Import took 0.014788 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000474 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(39446802b667c56468f4ac4ade2d7665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(39446802b667c56468f4ac4ade2d7665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f5361437d858c62f1e5811081fbe8cd') in 0.001980 seconds
-  Import took 0.003801 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.680951 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(39446802b667c56468f4ac4ade2d7665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(39446802b667c56468f4ac4ade2d7665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ebefbea0e0c510bf5d696d94f9609a7') in 0.001526 seconds
-  Import took 0.003137 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.485796 seconds.
-  path: Assets/Scenes/Hayden J.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Hayden J.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5869a6c953843bbb9f7d927213a9bcf') in 0.001798 seconds
-  Import took 0.003704 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000307 seconds.
-  path: Assets/Scenes/Hayden J.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Hayden J.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5869a6c953843bbb9f7d927213a9bcf') in 0.001765 seconds
-  Import took 0.003512 seconds .
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1578.
+Total: 1.396900 ms (FindLiveObjects: 0.105200 ms CreateObjectMapping: 0.030000 ms MarkObjects: 1.218400 ms  DeleteObjects: 0.042500 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
