@@ -6,26 +6,41 @@ using UnityEngine.UI;
 public class PlayerRaycast : MonoBehaviour
 {
     public float interactDistance;
-    public Text pickupText;
+    public Text interactText;
     RaycastHit whatIHit;
 
     private void Update()
     {
+        if(InventoryManager.instance.invBackground.activeInHierarchy == false)
         if (WhatDidISee() != null) // if the player is looking at something
         {
             GameObject lookingAt = WhatDidISee();
 
             if(lookingAt.tag == "Rubbish")
             {
-                pickupText.gameObject.SetActive(true);
+                interactText.text = "E to pickup";
+                interactText.gameObject.SetActive(true);
                 if(Input.GetKeyDown(KeyCode.E))
                 {
                     Destroy(lookingAt);
                 }
             }
+            else if(lookingAt.tag == "Bin")
+            {
+                interactText.text = "E to use bin";
+                interactText.gameObject.SetActive(true);
+                if (Input.GetKeyDown(KeyCode.E))
+                {
+                    InventoryManager.instance.ShowBinUI();
+                }
+            }
+            else if(lookingAt = null)
+            {
+                interactText.gameObject.SetActive(false);
+            }
             else
             {
-                pickupText.gameObject.SetActive(false);
+                interactText.gameObject.SetActive(false);
             }
             
         }

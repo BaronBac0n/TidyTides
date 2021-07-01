@@ -19,6 +19,11 @@ public class InventoryManager : MonoBehaviour
 
     public GameObject inventoryParent;
     public GameObject playetInv;
+    public GameObject binUI;
+    public GameObject invBackground;
+    public GameObject interactText;
+
+    FirstPersonAIO player;
 
     #region Singleton
     public static InventoryManager instance;
@@ -37,7 +42,7 @@ public class InventoryManager : MonoBehaviour
     void Start()
     {
 
-
+        player = GameObject.FindGameObjectWithTag("Player").GetComponent<FirstPersonAIO>();
     }
 
     void Update()
@@ -49,15 +54,66 @@ public class InventoryManager : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Tab))
         {
-            if (inventoryParent.active == false)
-            {
-                inventoryParent.SetActive(true);
-            }
-            else
-            {
-                inventoryParent.SetActive(false);
-            }
+            ShowPlayerInventory();
         }
+
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            ShowBinUI();
+        }
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            HideUIs();
+        }
+    }
+
+    public void ShowPlayerInventory()
+    {
+        if (inventoryParent.activeInHierarchy == false)
+        {
+            invBackground.SetActive(true);
+            inventoryParent.SetActive(true);
+            binUI.SetActive(false);
+            interactText.SetActive(false);
+            player.ControllerPause();
+        }
+        else
+        {
+            invBackground.SetActive(false);
+            inventoryParent.SetActive(false);
+            binUI.SetActive(false);
+            interactText.SetActive(false);
+            player.ControllerPause();
+        }
+    }
+
+    public void ShowBinUI()
+    {
+        if (binUI.activeInHierarchy == false)
+        {
+            invBackground.SetActive(true);
+            inventoryParent.SetActive(true);
+            binUI.SetActive(true);
+            interactText.SetActive(false);
+            player.ControllerPause();
+        }
+        else
+        {
+            invBackground.SetActive(false);
+            inventoryParent.SetActive(false);
+            binUI.SetActive(false);
+            interactText.SetActive(false);
+            player.ControllerPause();
+        }
+    }
+
+    public void HideUIs()
+    {
+        invBackground.SetActive(false);
+        inventoryParent.SetActive(false);
+        binUI.SetActive(false);
+        interactText.SetActive(false);
     }
 
     public void AddNewItem(GameObject newItem)

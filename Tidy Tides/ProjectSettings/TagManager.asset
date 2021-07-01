@@ -10,6 +10,7 @@ TagManager:
   - Recycling
   - Rubbish
   - Canvas
+  - Bin
   layers:
   - Default
   - TransparentFX

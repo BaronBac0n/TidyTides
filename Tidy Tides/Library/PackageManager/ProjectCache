@@ -1,19 +1,19 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: C:/Users/maxco/OneDrive/Desktop/UNI/TidyTides/Tidy Tides/Packages/manifest.json
+    m_FilePath: D:/Projects/TidyTides/Tidy Tides/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637604376742536394
+      ticks: 637604331222677243
     m_Hash: 3495729611
   m_LockFileStatus:
-    m_FilePath: C:/Users/maxco/OneDrive/Desktop/UNI/TidyTides/Tidy Tides/Packages/packages-lock.json
+    m_FilePath: D:/Projects/TidyTides/Tidy Tides/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637604376742546365
+      ticks: 637604337737693735
     m_Hash: 2748144516
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -25,7 +25,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.3.9
       source: 1
-      resolvedPath: C:\Users\maxco\OneDrive\Desktop\UNI\TidyTides\Tidy Tides\Library\PackageCache\com.unity.collab-proxy@1.3.9
+      resolvedPath: D:\Projects\TidyTides\Tidy Tides\Library\PackageCache\com.unity.collab-proxy@1.3.9
       assetPath: Packages/com.unity.collab-proxy
       name: com.unity.collab-proxy
       displayName: Unity Collaborate
@@ -124,7 +124,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.7
       source: 1
-      resolvedPath: C:\Users\maxco\OneDrive\Desktop\UNI\TidyTides\Tidy Tides\Library\PackageCache\com.unity.ide.rider@2.0.7
+      resolvedPath: D:\Projects\TidyTides\Tidy Tides\Library\PackageCache\com.unity.ide.rider@2.0.7
       assetPath: Packages/com.unity.ide.rider
       name: com.unity.ide.rider
       displayName: JetBrains Rider Editor
@@ -231,7 +231,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.7
       source: 1
-      resolvedPath: C:\Users\maxco\OneDrive\Desktop\UNI\TidyTides\Tidy Tides\Library\PackageCache\com.unity.ide.visualstudio@2.0.7
+      resolvedPath: D:\Projects\TidyTides\Tidy Tides\Library\PackageCache\com.unity.ide.visualstudio@2.0.7
       assetPath: Packages/com.unity.ide.visualstudio
       name: com.unity.ide.visualstudio
       displayName: Visual Studio Editor
@@ -316,7 +316,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.2.3
       source: 1
-      resolvedPath: C:\Users\maxco\OneDrive\Desktop\UNI\TidyTides\Tidy Tides\Library\PackageCache\com.unity.ide.vscode@1.2.3
+      resolvedPath: D:\Projects\TidyTides\Tidy Tides\Library\PackageCache\com.unity.ide.vscode@1.2.3
       assetPath: Packages/com.unity.ide.vscode
       name: com.unity.ide.vscode
       displayName: Visual Studio Code Editor
@@ -385,7 +385,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.1.24
       source: 1
-      resolvedPath: C:\Users\maxco\OneDrive\Desktop\UNI\TidyTides\Tidy Tides\Library\PackageCache\com.unity.test-framework@1.1.24
+      resolvedPath: D:\Projects\TidyTides\Tidy Tides\Library\PackageCache\com.unity.test-framework@1.1.24
       assetPath: Packages/com.unity.test-framework
       name: com.unity.test-framework
       displayName: Test Framework
@@ -477,7 +477,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 3.0.6
       source: 1
-      resolvedPath: C:\Users\maxco\OneDrive\Desktop\UNI\TidyTides\Tidy Tides\Library\PackageCache\com.unity.textmeshpro@3.0.6
+      resolvedPath: D:\Projects\TidyTides\Tidy Tides\Library\PackageCache\com.unity.textmeshpro@3.0.6
       assetPath: Packages/com.unity.textmeshpro
       name: com.unity.textmeshpro
       displayName: TextMeshPro
@@ -632,7 +632,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.4.8
       source: 1
-      resolvedPath: C:\Users\maxco\OneDrive\Desktop\UNI\TidyTides\Tidy Tides\Library\PackageCache\com.unity.timeline@1.4.8
+      resolvedPath: D:\Projects\TidyTides\Tidy Tides\Library\PackageCache\com.unity.timeline@1.4.8
       assetPath: Packages/com.unity.timeline
       name: com.unity.timeline
       displayName: Timeline
@@ -2585,7 +2585,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.6
       source: 1
-      resolvedPath: C:\Users\maxco\OneDrive\Desktop\UNI\TidyTides\Tidy Tides\Library\PackageCache\com.unity.ext.nunit@1.0.6
+      resolvedPath: D:\Projects\TidyTides\Tidy Tides\Library\PackageCache\com.unity.ext.nunit@1.0.6
       assetPath: Packages/com.unity.ext.nunit
       name: com.unity.ext.nunit
       displayName: Custom NUnit
@@ -2643,5 +2643,5 @@ m_PackageAssets:
         path: 
   m_LocalPackages:
     m_LocalFileStatus: []
-m_ProjectPath: C:/Users/maxco/OneDrive/Desktop/UNI/TidyTides/Tidy Tides/Packages
+m_ProjectPath: D:/Projects/TidyTides/Tidy Tides/Packages
 m_EditorVersion: 2020.3.9f1 (108be757e447)
