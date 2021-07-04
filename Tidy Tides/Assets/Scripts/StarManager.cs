@@ -5,30 +5,31 @@ using UnityEngine;
 public class StarManager : MonoBehaviour
 {
     public int score;
+    public int toGet1, toGet2, toGet3;
     public GameObject[] stars;
 
     private void Start()
     {
         score = ScoreTracker.instance.score;
 
-       if(score <= 0)
+       if(score <= toGet1)
         {
             print("No score, try harder!");
         }
 
-        if (score >= 5)
+        if (score >= toGet1)
         {
-            print("1 star");
+            stars[0].SetActive(true);
         }
 
-        if (score >= 10)
+        if (score >= toGet2)
         {
-            print("2 stars");
+            stars[1].SetActive(true);
         }
 
-        if (score >= 20)
+        if (score >= toGet3)
         {
-            print("3 stars");
+            stars[2].SetActive(true);
         }
     }
 }
