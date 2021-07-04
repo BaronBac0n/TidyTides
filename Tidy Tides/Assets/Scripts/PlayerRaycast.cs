@@ -8,41 +8,44 @@ public class PlayerRaycast : MonoBehaviour
     public float interactDistance;
     public Text interactText;
     RaycastHit whatIHit;
+    public GameObject lookingAt;
 
     private void Update()
     {
-        if(InventoryManager.instance.invBackground.activeInHierarchy == false)
-        if (WhatDidISee() != null) // if the player is looking at something
+        if (InventoryManager.instance.invBackground.activeInHierarchy == false) // if the player's inventory is not open
         {
-            GameObject lookingAt = WhatDidISee();
+            if (WhatDidISee() != null) // if the player is looking at something
+            {
+                 lookingAt = WhatDidISee();
 
-            if(lookingAt.tag == "Rubbish")
-            {
-                interactText.text = "E to pickup";
-                interactText.gameObject.SetActive(true);
-                if(Input.GetKeyDown(KeyCode.E))
+                if (lookingAt.tag == "Rubbish")
                 {
-                    Destroy(lookingAt);
+                    interactText.text = "E to pickup";
+                    interactText.gameObject.SetActive(true);
+                    if (Input.GetKeyDown(KeyCode.E))
+                    {
+                        Destroy(lookingAt);
+                    }
                 }
-            }
-            else if(lookingAt.tag == "Bin")
-            {
-                interactText.text = "E to use bin";
-                interactText.gameObject.SetActive(true);
-                if (Input.GetKeyDown(KeyCode.E))
+                else if (lookingAt.tag == "Bin")
                 {
-                    InventoryManager.instance.ShowBinUI();
+                    interactText.text = "E to use bin";
+                    interactText.gameObject.SetActive(true);
+                    if (Input.GetKeyDown(KeyCode.E))
+                    {
+                        InventoryManager.instance.ShowBinUI();
+                    }
                 }
-            }
-            else if(lookingAt = null)
-            {
-                interactText.gameObject.SetActive(false);
+                else
+                {
+                    print("A");
+                    interactText.gameObject.SetActive(false);
+                }
             }
             else
             {
                 interactText.gameObject.SetActive(false);
             }
-            
         }
     }
 
