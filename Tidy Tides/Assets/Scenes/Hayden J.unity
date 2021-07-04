@@ -2278,6 +2278,10 @@ PrefabInstance:
       propertyPath: uiElement
       value: 
       objectReference: {fileID: 315391305899773290, guid: 58f5c72ec95ae744f9c6f3dc813e2adf, type: 3}
+    - target: {fileID: 193861498764691972, guid: 40ab66af6c7002c4cae63aeb04c5b839, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 459bb6524905d03469cb30b84fec8653, type: 2}
     - target: {fileID: 193861498764691974, guid: 40ab66af6c7002c4cae63aeb04c5b839, type: 3}
       propertyPath: m_Name
       value: Dead fish
@@ -2783,6 +2787,10 @@ PrefabInstance:
       propertyPath: uiElement
       value: 
       objectReference: {fileID: 315391305899773290, guid: 25fa6fabad33de044a814b82d91ed092, type: 3}
+    - target: {fileID: 193861498764691972, guid: 40ab66af6c7002c4cae63aeb04c5b839, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a3fbceda4a88e0e4f889f5832a58f018, type: 2}
     - target: {fileID: 193861498764691974, guid: 40ab66af6c7002c4cae63aeb04c5b839, type: 3}
       propertyPath: m_Name
       value: Tire
@@ -2941,9 +2949,9 @@ RectTransform:
   m_Father: {fileID: 315495307}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: -31.876266, y: 60.37166}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -100.87627, y: 110.37166}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2033976817
@@ -3117,6 +3125,10 @@ PrefabInstance:
       propertyPath: value
       value: 20
       objectReference: {fileID: 0}
+    - target: {fileID: 193861498764691972, guid: 40ab66af6c7002c4cae63aeb04c5b839, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e0ffad98ac4fd5e4d867469d93f1a4d8, type: 2}
     - target: {fileID: 193861498764691974, guid: 40ab66af6c7002c4cae63aeb04c5b839, type: 3}
       propertyPath: m_Name
       value: Plastic Bottle

@@ -60,7 +60,7 @@ public class InventorySlot : MonoBehaviour, IDropHandler
             {
                 print("Slot already full");
                 eventData.pointerDrag.transform.position = eventData.pointerDrag.GetComponent<DragDrop>().initialPosition;
-                contents = eventData.pointerDrag;
+               // contents = eventData.pointerDrag;
             }
         }
     }

@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1600
     height: 817
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Game
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 492}
   m_MaxSize: {x: 10000, y: 10000}
@@ -124,7 +124,7 @@ MonoBehaviour:
   m_MinSize: {x: 911, y: 442}
   m_MaxSize: {x: 22006, y: 10021}
   vertical: 0
-  controlID: 40
+  controlID: 100
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -149,7 +149,7 @@ MonoBehaviour:
   m_MinSize: {x: 201, y: 442}
   m_MaxSize: {x: 4001, y: 8042}
   vertical: 1
-  controlID: 78
+  controlID: 124
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -405,9 +405,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.038205087, y: 0.2129631, z: 0.3275754}
+    m_Target: {x: -2.3417716, y: 1.1054368, z: -1.1089412}
     speed: 2
-    m_Value: {x: -0.038205087, y: 0.2129631, z: 0.3275754}
+    m_Value: {x: -2.3417716, y: 1.1054368, z: -1.1089412}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -446,7 +446,7 @@ MonoBehaviour:
       m_Fade:
         m_Target: 0
         speed: 2
-        m_Value: 1
+        m_Value: 0
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
       m_Size: {x: 1, y: 1}
@@ -454,13 +454,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.2218296, y: 0.7356998, z: -0.28476813, w: 0.5731064}
+    m_Target: {x: 0.16659008, y: 0.6544974, z: -0.1510447, w: 0.721856}
     speed: 2
-    m_Value: {x: 0.22096898, y: 0.73612374, z: -0.28366333, w: 0.5734367}
+    m_Value: {x: 0.16658929, y: 0.6544943, z: -0.15104398, w: 0.72185254}
   m_Size:
-    m_Target: 2.7635
+    m_Target: 3.892689
     speed: 2
-    m_Value: 2.4635
+    m_Value: 3.892689
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -515,21 +515,21 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 44ebffffaeecffff5cefffffdef9ffff52fbffff203e0000343e0000
+      m_ExpandedIDs: 52fbffff523a00007a3a0000de3a0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: SpriteBottle(Clone)
+        m_OriginalName: SpriteBottle(Clone)
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: -6814
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 9}
       m_SearchString: 
@@ -577,7 +577,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Scripts
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 0
@@ -592,7 +592,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 66400000
     m_LastClickedID: 16486
-    m_ExpandedIDs: 00000000523c0000543c0000563c0000583c00005a3c0000
+    m_ExpandedIDs: 00000000523c0000543c0000563c0000583c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -620,7 +620,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff00000000523c0000543c0000563c0000583c0000
+    m_ExpandedIDs: ffffffff00000000523c0000543c0000563c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
