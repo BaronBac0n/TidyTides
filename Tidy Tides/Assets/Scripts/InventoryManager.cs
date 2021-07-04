@@ -121,7 +121,7 @@ public class InventoryManager : MonoBehaviour
         if (CheckForEmptySlot() >= 0)
         {
             print("Slot " + CheckForEmptySlot() + " is the first empty slot");
-            GameObject clone = Instantiate(itemToAdd, playetInv.transform);
+            GameObject clone = Instantiate(newItem, playetInv.transform);
             slots[CheckForEmptySlot()].contents = clone;
         }
         else

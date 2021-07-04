@@ -38,7 +38,6 @@ public class PlayerRaycast : MonoBehaviour
                 }
                 else
                 {
-                    print("A");
                     interactText.gameObject.SetActive(false);
                 }
             }

@@ -1,0 +1,443 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.9f1 (108be757e447) revision 1084391'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19041.1052; Version 2004; 64bit' Language: 'en' Physical Memory: 16317 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Projects/TidyTides/Tidy Tides
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+54191
+Successfully changed project path to: D:/Projects/TidyTides/Tidy Tides
+D:/Projects/TidyTides/Tidy Tides
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 23.03 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.9f1 (108be757e447)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Projects/TidyTides/Tidy Tides/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
+    Vendor:   
+    VRAM:     6052 MB
+    Driver:   27.21.14.6089
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56988
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002033 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 24.75 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.114 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000506 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000002036D3C0EC0 doesn't match image D:\Projects\TidyTides\Tidy Tides\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020371C23340 doesn't match image D:\Projects\TidyTides\Tidy Tides\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020371C37D50 doesn't match image D:\Projects\TidyTides\Tidy Tides\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020371C37D50 doesn't match image D:\Projects\TidyTides\Tidy Tides\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020371ACC420 doesn't match image D:\Projects\TidyTides\Tidy Tides\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.821 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.7 MB.
+System memory in use after: 57.8 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1569.
+Total: 1.510000 ms (FindLiveObjects: 0.106600 ms CreateObjectMapping: 0.031200 ms MarkObjects: 1.306200 ms  DeleteObjects: 0.065100 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Prefabs/Rubbish/UI elements/Plastic bag.prefab
+  artifactKey: Guid(25fa6fabad33de044a814b82d91ed092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Rubbish/UI elements/Plastic bag.prefab using Guid(25fa6fabad33de044a814b82d91ed092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96bd4fd2d09a63da51d1765d95ad5122') in 0.052454 seconds
+  Import took 0.054098 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Prefabs/Rubbish/UI elements/SpriteBottle.prefab
+  artifactKey: Guid(217e42b1531790042b4232de3ee0a36c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Rubbish/UI elements/SpriteBottle.prefab using Guid(217e42b1531790042b4232de3ee0a36c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a365b3ab4bc964a8ddabcc68c86a4ca') in 0.006390 seconds
+  Import took 0.008349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 100.206018 seconds.
+  path: Assets/Art/pngkey.com-dead-person-png-548206.png
+  artifactKey: Guid(04b846093a08c174ea8deb312b32c072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/pngkey.com-dead-person-png-548206.png using Guid(04b846093a08c174ea8deb312b32c072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35cc106a08b9bb8899d1363c99243407') in 0.069029 seconds
+  Import took 0.071072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.131614 seconds.
+  path: Assets/Art/pngkey.com-dead-person-png-548206.png
+  artifactKey: Guid(04b846093a08c174ea8deb312b32c072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/pngkey.com-dead-person-png-548206.png using Guid(04b846093a08c174ea8deb312b32c072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '533307f5513eba8938a6d17224793022') in 0.052498 seconds
+  Import took 0.054335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.398276 seconds.
+  path: Assets/Prefabs/Rubbish/UI elements/SpriteBottle 1.prefab
+  artifactKey: Guid(58f5c72ec95ae744f9c6f3dc813e2adf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Rubbish/UI elements/SpriteBottle 1.prefab using Guid(58f5c72ec95ae744f9c6f3dc813e2adf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b852042d0b2f5d22a8a962ac6f8f247') in 0.007409 seconds
+  Import took 0.009513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.589217 seconds.
+  path: Assets/Prefabs/Rubbish/UI elements/Dead fish.prefab
+  artifactKey: Guid(58f5c72ec95ae744f9c6f3dc813e2adf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Rubbish/UI elements/Dead fish.prefab using Guid(58f5c72ec95ae744f9c6f3dc813e2adf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdfd992d48026605cb2dd8edb37cb9af') in 0.009520 seconds
+  Import took 0.011500 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.091732 seconds.
+  path: Assets/Prefabs/Rubbish/UI elements/Dead fish.prefab
+  artifactKey: Guid(58f5c72ec95ae744f9c6f3dc813e2adf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Rubbish/UI elements/Dead fish.prefab using Guid(58f5c72ec95ae744f9c6f3dc813e2adf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ba3554b20e7bc588ab20f4b96398150') in 0.003345 seconds
+  Import took 0.005549 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000485 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000020372C6B060 doesn't match image D:\Projects\TidyTides\Tidy Tides\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020372F15BF0 doesn't match image D:\Projects\TidyTides\Tidy Tides\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002036DB66360 doesn't match image D:\Projects\TidyTides\Tidy Tides\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002037251EE20 doesn't match image D:\Projects\TidyTides\Tidy Tides\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020372CF8430 doesn't match image D:\Projects\TidyTides\Tidy Tides\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.837 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1120 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 60.7 MB.
+System memory in use after: 60.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1579.
+Total: 1.621800 ms (FindLiveObjects: 0.103900 ms CreateObjectMapping: 0.029000 ms MarkObjects: 1.446200 ms  DeleteObjects: 0.041700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 57.394141 seconds.
+  path: Assets/Prefabs/Rubbish/UI elements/Dead fish.prefab
+  artifactKey: Guid(58f5c72ec95ae744f9c6f3dc813e2adf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Rubbish/UI elements/Dead fish.prefab using Guid(58f5c72ec95ae744f9c6f3dc813e2adf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6760d8e29564edaa767d070a8fb037be') in 0.029787 seconds
+  Import took 0.031729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.839621 seconds.
+  path: Assets/Prefabs/Rubbish/UI elements/Dead fish.prefab
+  artifactKey: Guid(58f5c72ec95ae744f9c6f3dc813e2adf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Rubbish/UI elements/Dead fish.prefab using Guid(58f5c72ec95ae744f9c6f3dc813e2adf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccc1d8372f3b46d897cffb87c59f4cc0') in 0.002856 seconds
+  Import took 0.004622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 153.263165 seconds.
+  path: Assets/Scripts/InventorySlot.cs
+  artifactKey: Guid(d8cd6f72317280149bb936ecc9f7de99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/InventorySlot.cs using Guid(d8cd6f72317280149bb936ecc9f7de99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4667926253775566abba17107968df5') in 0.148883 seconds
+  Import took 0.151093 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000552 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000002036DADACF0 doesn't match image D:\Projects\TidyTides\Tidy Tides\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002036D089490 doesn't match image D:\Projects\TidyTides\Tidy Tides\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000203739B5730 doesn't match image D:\Projects\TidyTides\Tidy Tides\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000203739B5730 doesn't match image D:\Projects\TidyTides\Tidy Tides\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002037428B0F0 doesn't match image D:\Projects\TidyTides\Tidy Tides\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.840 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1120 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 60.7 MB.
+System memory in use after: 60.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1582.
+Total: 1.866100 ms (FindLiveObjects: 0.207900 ms CreateObjectMapping: 0.055100 ms MarkObjects: 1.552400 ms  DeleteObjects: 0.049600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000533 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000002036D8FB070 doesn't match image D:\Projects\TidyTides\Tidy Tides\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002037209E040 doesn't match image D:\Projects\TidyTides\Tidy Tides\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020372D12020 doesn't match image D:\Projects\TidyTides\Tidy Tides\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020372686AA0 doesn't match image D:\Projects\TidyTides\Tidy Tides\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002037428B0F0 doesn't match image D:\Projects\TidyTides\Tidy Tides\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.782 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1120 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 60.7 MB.
+System memory in use after: 60.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1585.
+Total: 1.645500 ms (FindLiveObjects: 0.108300 ms CreateObjectMapping: 0.029800 ms MarkObjects: 1.455800 ms  DeleteObjects: 0.050600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 151.607594 seconds.
+  path: Assets/Prefabs/Rubbish/UI elements/Bottle.prefab
+  artifactKey: Guid(25fa6fabad33de044a814b82d91ed092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Rubbish/UI elements/Bottle.prefab using Guid(25fa6fabad33de044a814b82d91ed092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bae9c6185e8473df90864cde950c5541') in 0.036444 seconds
+  Import took 0.038788 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.085460 seconds.
+  path: Assets/Prefabs/Rubbish/UI elements/Tire.prefab
+  artifactKey: Guid(25fa6fabad33de044a814b82d91ed092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Rubbish/UI elements/Tire.prefab using Guid(25fa6fabad33de044a814b82d91ed092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1be598439994e7a47f515a1d07ee97b3') in 0.008094 seconds
+  Import took 0.010507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 180.400438 seconds.
+  path: Assets/Art/car-tire-png-459.png
+  artifactKey: Guid(c6458f431bc3f324eb5ebc52ce9916aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/car-tire-png-459.png using Guid(c6458f431bc3f324eb5ebc52ce9916aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a7a5e0e96591d4e3eb6a824d2582d89') in 0.032640 seconds
+  Import took 0.034718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011820 seconds.
+  path: Assets/Art/car-tire-png-459.png
+  artifactKey: Guid(c6458f431bc3f324eb5ebc52ce9916aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/car-tire-png-459.png using Guid(c6458f431bc3f324eb5ebc52ce9916aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a7a5e0e96591d4e3eb6a824d2582d89') in 0.015334 seconds
+  Import took 0.017122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.696909 seconds.
+  path: Assets/Art/car-tire-png-459.png
+  artifactKey: Guid(c6458f431bc3f324eb5ebc52ce9916aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/car-tire-png-459.png using Guid(c6458f431bc3f324eb5ebc52ce9916aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7ae4111f4893a0c516bed2b6a3cfe02') in 0.059264 seconds
+  Import took 0.061831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.380136 seconds.
+  path: Assets/Art/Textures/Audio
+  artifactKey: Guid(21ac093e7dfc0b94eb12602e787bd5e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Textures/Audio using Guid(21ac093e7dfc0b94eb12602e787bd5e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55ba2cdd3deb9bffd6724f6bed1769e6') in 0.006371 seconds
+  Import took 0.008433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.899833 seconds.
+  path: Assets/Prefabs/Rubbish/UI elements/Tire.prefab
+  artifactKey: Guid(25fa6fabad33de044a814b82d91ed092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Rubbish/UI elements/Tire.prefab using Guid(25fa6fabad33de044a814b82d91ed092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca8526b178e335813b7223e4bb0a3308') in 0.014034 seconds
+  Import took 0.016092 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000615 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000203741B5F00 doesn't match image D:\Projects\TidyTides\Tidy Tides\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002037377A010 doesn't match image D:\Projects\TidyTides\Tidy Tides\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002036D221830 doesn't match image D:\Projects\TidyTides\Tidy Tides\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000203739FF060 doesn't match image D:\Projects\TidyTides\Tidy Tides\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002037428B0F0 doesn't match image D:\Projects\TidyTides\Tidy Tides\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.745 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1120 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 60.7 MB.
+System memory in use after: 60.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1591.
+Total: 1.874000 ms (FindLiveObjects: 0.107900 ms CreateObjectMapping: 0.030200 ms MarkObjects: 1.641600 ms  DeleteObjects: 0.093400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 143.749461 seconds.
+  path: Assets/Art/Textures/water-bottle-png-39990.png
+  artifactKey: Guid(362dde64d766474479526cd97bb519bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Textures/water-bottle-png-39990.png using Guid(362dde64d766474479526cd97bb519bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '544979973b39aa431a1d250c301564b8') in 0.036150 seconds
+  Import took 0.038097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010784 seconds.
+  path: Assets/Art/Textures/water-bottle-png-39990.png
+  artifactKey: Guid(362dde64d766474479526cd97bb519bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Textures/water-bottle-png-39990.png using Guid(362dde64d766474479526cd97bb519bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '544979973b39aa431a1d250c301564b8') in 0.009144 seconds
+  Import took 0.011095 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.006505 seconds.
+  path: Assets/Art/Textures/water-bottle-png-39990.png
+  artifactKey: Guid(362dde64d766474479526cd97bb519bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Textures/water-bottle-png-39990.png using Guid(362dde64d766474479526cd97bb519bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b44daeb2be28d2eb36c30b8bb965282b') in 0.041413 seconds
+  Import took 0.043258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.357617 seconds.
+  path: Assets/Art/Textures/115-1159703_sprite-bottle-best-out-of-waste-plastic-bottles.png
+  artifactKey: Guid(7e608258d0fc8624f80c2d21fe0e20b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Textures/115-1159703_sprite-bottle-best-out-of-waste-plastic-bottles.png using Guid(7e608258d0fc8624f80c2d21fe0e20b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eef69660452926887d79d26c2e3d9d9') in 0.019279 seconds
+  Import took 0.021058 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.453812 seconds.
+  path: Assets/Prefabs/Rubbish/UI elements/SpriteBottle.prefab
+  artifactKey: Guid(217e42b1531790042b4232de3ee0a36c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Rubbish/UI elements/SpriteBottle.prefab using Guid(217e42b1531790042b4232de3ee0a36c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29309ae1d7b43d733f059248f77f0566') in 0.031030 seconds
+  Import took 0.032975 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000487 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000002036D0C6A90 doesn't match image D:\Projects\TidyTides\Tidy Tides\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020374401B10 doesn't match image D:\Projects\TidyTides\Tidy Tides\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020374CEC9D0 doesn't match image D:\Projects\TidyTides\Tidy Tides\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020372686AA0 doesn't match image D:\Projects\TidyTides\Tidy Tides\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020373650050 doesn't match image D:\Projects\TidyTides\Tidy Tides\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.766 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1120 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 60.7 MB.
+System memory in use after: 60.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1600.
+Total: 1.480100 ms (FindLiveObjects: 0.114900 ms CreateObjectMapping: 0.033200 ms MarkObjects: 1.287200 ms  DeleteObjects: 0.043700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 80.439578 seconds.
+  path: Assets/Prefabs/Rubbish/UI elements/Tire.prefab
+  artifactKey: Guid(25fa6fabad33de044a814b82d91ed092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Rubbish/UI elements/Tire.prefab using Guid(25fa6fabad33de044a814b82d91ed092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52c0e9be270923e3bb5d4a631a4bb699') in 0.030873 seconds
+  Import took 0.033073 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000473 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000203741B5F00 doesn't match image D:\Projects\TidyTides\Tidy Tides\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000203733DE010 doesn't match image D:\Projects\TidyTides\Tidy Tides\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002037251EE20 doesn't match image D:\Projects\TidyTides\Tidy Tides\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020374CEC9D0 doesn't match image D:\Projects\TidyTides\Tidy Tides\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020371CC7030 doesn't match image D:\Projects\TidyTides\Tidy Tides\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.736 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1120 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 60.7 MB.
+System memory in use after: 60.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1603.
+Total: 1.491700 ms (FindLiveObjects: 0.100700 ms CreateObjectMapping: 0.028600 ms MarkObjects: 1.323600 ms  DeleteObjects: 0.038000 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
