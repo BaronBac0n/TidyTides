@@ -24,6 +24,7 @@ public class PlayerRaycast : MonoBehaviour
                     interactText.gameObject.SetActive(true);
                     if (Input.GetKeyDown(KeyCode.E))
                     {
+                        lookingAt.GetComponent<Item>().Destroyed();
                         Destroy(lookingAt);
                     }
                 }

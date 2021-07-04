@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class ScoreTracker : MonoBehaviour
 {
     public int score = 0;
-    private Text scoreText;
+    public Text scoreText;
     #region Singleton
     public static ScoreTracker instance;
 
@@ -19,16 +19,23 @@ public class ScoreTracker : MonoBehaviour
             return;
         }
         instance = this;
+        scoreText = GameObject.FindGameObjectWithTag("Score Text").GetComponent<Text>();
     }
     #endregion
 
     private void Start()
     {
-        scoreText = GetComponent<Text>();
+        
+        Object.DontDestroyOnLoad(this.gameObject);
     }
 
     private void Update()
     {
         scoreText.text = "SCORE: " + score;
+    }
+
+    private void OnLevelWasLoaded(int level)
+    {
+        scoreText = GameObject.FindGameObjectWithTag("Score Text").GetComponent<Text>();
     }
 }

@@ -9,7 +9,7 @@ public class Item : MonoBehaviour
     public Type type;
     public GameObject uiElement;
 
-    private void OnDestroy()
+    public void Destroyed()
     {
         if(uiElement != null)
         InventoryManager.instance.AddNewItem(uiElement);

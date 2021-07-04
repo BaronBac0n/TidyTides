@@ -36,12 +36,13 @@ public class InventoryManager : MonoBehaviour
             return;
         }
         instance = this;
+        inventoryParent.SetActive(true);
     }
     #endregion
 
     void Start()
     {
-
+        inventoryParent.SetActive(false);
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<FirstPersonAIO>();
     }
 
@@ -120,7 +121,7 @@ public class InventoryManager : MonoBehaviour
     {
         if (CheckForEmptySlot() >= 0)
         {
-            print("Slot " + CheckForEmptySlot() + " is the first empty slot");
+            //print("Slot " + CheckForEmptySlot() + " is the first empty slot");
             GameObject clone = Instantiate(newItem, playetInv.transform);
             slots[CheckForEmptySlot()].contents = clone;
         }
